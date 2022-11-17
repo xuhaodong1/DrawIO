@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-11-17T09:41:54.791Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="1TQKOzQ2H8LDKBL2KIJY" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-17T09:52:22.834Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="1HaG7isSVh56A0DQD2GO" version="20.5.1" type="github">
   <diagram id="LliGrTo6IxOCmECgdEKM" name="第 1 页">
-    <mxGraphModel dx="1261" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="553" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="As4aNOafPKZ8VDamvQL3-1" value="中介者模式结构：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=16;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="20" y="40" width="130" height="30" as="geometry" />
+        <mxCell id="As4aNOafPKZ8VDamvQL3-1" value="中介者模式结构：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=18;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="21" y="54" width="159" height="33" as="geometry" />
         </mxCell>
         <mxCell id="KlUVC-nTQkEUZtXj6v6p-1" value="Mediator&lt;Interface&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Times New Roman;fontSize=16;rounded=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="331" y="110" width="200" height="60" as="geometry" />
