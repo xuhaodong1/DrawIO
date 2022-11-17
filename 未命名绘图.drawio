@@ -1,1 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-11-17T09:11:03.275Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="EAgEXkzYL-M9iPge5Lll" version="20.5.1" type="github"><diagram id="LliGrTo6IxOCmECgdEKM" name="第 1 页">ddHBEoIgEADQr+GuUJZnM7t08tCZkU2YQddBGq2vTwfMGOvCLI+FZYGwrBkLwzt5RQGa0EiMhJ0IpekumcYZng72ceqgNko4ilco1Qs8Rl4fSkAfJFpEbVUXYoVtC5UNjBuDQ5h2Rx1W7XgNGygrrrd6U8JKp0d6WP0CqpZL5Tjx/TV8Sfad9JILHL6I5YRlBtG6qBkz0PPbLe/i9p3/rH4uZqC1PzZMwXr2NAk+iOVv</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-17T09:11:35.089Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="yi_dJddp8I0ddab5O6rV" version="20.5.1" type="github">
+  <diagram id="LliGrTo6IxOCmECgdEKM" name="第 1 页">
+    <mxGraphModel dx="946" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="As4aNOafPKZ8VDamvQL3-1" value="中介者模式结构：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="30" width="130" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
