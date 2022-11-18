@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T02:32:12.971Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="PYL2c6UDcDVHfyUjYFRf" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-18T02:37:43.069Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="TsW1NeTlyC0ck4N6kc1-" version="20.5.3" type="github">
   <diagram id="LliGrTo6IxOCmECgdEKM" name="第 1 页">
-    <mxGraphModel dx="1183" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="0">
+    <mxGraphModel dx="1751" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,7 +17,7 @@
           <mxGeometry y="86" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="As4aNOafPKZ8VDamvQL3-1" value="中介者模式结构：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=18;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="21" y="54" width="159" height="33" as="geometry" />
+          <mxGeometry x="21" y="32.5" width="159" height="33" as="geometry" />
         </mxCell>
         <mxCell id="KlUVC-nTQkEUZtXj6v6p-1" value="Mediator&lt;Interface&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Times New Roman;fontSize=16;rounded=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="331" y="110" width="200" height="60" as="geometry" />
@@ -159,7 +159,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="g1SRzkxm-KbwQc-2ITOF-1" value="责任链模式结构：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=18;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="21" y="570" width="159" height="33" as="geometry" />
+          <mxGeometry x="21" y="579" width="159" height="33" as="geometry" />
         </mxCell>
         <mxCell id="y-x1a5SyWCCNWOdujIV2-1" value="Handler&lt;Interface&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Times New Roman;fontSize=16;rounded=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="330" y="630" width="200" height="90" as="geometry" />
@@ -228,6 +228,18 @@
         </mxCell>
         <mxCell id="y-x1a5SyWCCNWOdujIV2-57" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &amp;quot;Heiti SC Light&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;span style=&quot;&quot; class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &amp;quot;Heiti SC Light&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;span style=&quot;&quot; class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &amp;quot;Heiti SC Light&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;span style=&quot;&quot; class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;&lt;span style=&quot;&quot; class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;4. 客户端&amp;nbsp;（Client）&amp;nbsp;可根据程序逻辑一次性或者动态地生成链。&amp;nbsp;值得注意的是，&amp;nbsp;请求可发送给链上的任意一个处理者，&amp;nbsp;而非必须是第一个处理者。&lt;/p&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=default;strokeColor=#F2CC8F;strokeWidth=2;fontFamily=Times New Roman;fontSize=16;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="570" y="720" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="y-x1a5SyWCCNWOdujIV2-58" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;1.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Heiti SC Light&amp;quot;; font-size: 14px; text-align: start; background-color: initial;&quot; class=&quot;Apple-tab-span&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Heiti SC Light&amp;quot;; font-size: 14px; text-align: start; background-color: initial;&quot; class=&quot;Apple-tab-span&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Heiti SC Light&amp;quot;; font-size: 14px; text-align: start; background-color: initial;&quot;&gt;组件&amp;nbsp;（Component）&amp;nbsp;是各种包含业务逻辑的类。&amp;nbsp;每个组件都有一个指向中介者的引用，&amp;nbsp;该引用被声明为中介者接口类型。&amp;nbsp;组件不知道中介者实际所属的类，&amp;nbsp;因此你可通过将其连接到不同的中介者以使其能在其他程序中复用。&lt;/span&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=default;strokeColor=#F2CC8F;strokeWidth=2;fontFamily=Times New Roman;fontSize=16;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="110" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="y-x1a5SyWCCNWOdujIV2-60" value="&lt;span style=&quot;font-size: 14px; text-align: left;&quot;&gt;2. 中介者&amp;nbsp;（Mediator）&amp;nbsp;接口声明了与组件交流的方法，&amp;nbsp;但通常仅包括一个通知方法。&amp;nbsp;组件可将任意上下文&amp;nbsp;（包括自己的对象）&amp;nbsp;作为该方法的参数，&amp;nbsp;只有这样接收组件和发送者类之间才不会耦合。&lt;/span&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=default;strokeColor=#F2CC8F;strokeWidth=2;fontFamily=Times New Roman;fontSize=16;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="32.5" width="420" height="54.5" as="geometry" />
+        </mxCell>
+        <mxCell id="y-x1a5SyWCCNWOdujIV2-61" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &amp;quot;Heiti SC Light&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;span style=&quot;&quot; class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;&lt;span style=&quot;&quot; class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;3. 具体中介者&amp;nbsp;（Concrete Mediator）&amp;nbsp;封装了多种组件间的关系。&amp;nbsp;具体中介者通常会保存所有组件的引用并对其进行管理，&amp;nbsp;甚至有时会对其生命周期进行管理。&lt;/p&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=default;strokeColor=#F2CC8F;strokeWidth=2;fontFamily=Times New Roman;fontSize=16;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="412" width="250" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="y-x1a5SyWCCNWOdujIV2-62" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &amp;quot;Heiti SC Light&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;span style=&quot;&quot; class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;&lt;span style=&quot;&quot; class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;4.&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot; class=&quot;Apple-tab-span&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;Apple-tab-span&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;组件并不知道其他组件的情况。&amp;nbsp;如果组件内发生了重要事件，&amp;nbsp;它只能通知中介者。&amp;nbsp;中介者收到通知后能轻易地确定发送者，&amp;nbsp;这或许已足以判断接下来需要触发的组件了。对于组件来说，&amp;nbsp;中介者看上去完全就是一个黑箱。&amp;nbsp;发送者不知道最终会由谁来处理自己的请求，&amp;nbsp;接收者也不知道最初是谁发出了请求。&lt;/span&gt;&lt;/p&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=default;strokeColor=#F2CC8F;strokeWidth=2;fontFamily=Times New Roman;fontSize=16;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="270" width="250" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
