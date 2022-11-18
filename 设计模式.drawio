@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T02:29:28.766Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Ck-5WzCT0tbZGV_EPfJQ" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-18T02:29:36.016Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="4L1KKqjBD1DE5W4fdiBi" version="20.5.3" type="github">
   <diagram id="LliGrTo6IxOCmECgdEKM" name="第 1 页">
     <mxGraphModel dx="860" dy="472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="0">
       <root>
@@ -218,7 +218,7 @@
           <mxGeometry x="600" y="650" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="y-x1a5SyWCCNWOdujIV2-54" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;1. 处理者(Handler)&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;Heiti SC Light&amp;quot;; text-align: start; background-color: initial;&quot;&gt;声明了所有具体处理者的通用接口。&amp;nbsp;该接口通常仅包含单个方法用于请求处理，&amp;nbsp;但有时其还会包含一个设置链上下个处理者的方法。&lt;/span&gt;&lt;/font&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=default;strokeColor=#F2CC8F;strokeWidth=2;fontFamily=Times New Roman;fontSize=16;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="40" y="660" width="210" height="110" as="geometry" />
+          <mxGeometry x="40" y="660" width="210" height="100" as="geometry" />
         </mxCell>
         <mxCell id="y-x1a5SyWCCNWOdujIV2-55" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &amp;quot;Heiti SC Light&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;span style=&quot;&quot; class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;&lt;span style=&quot;&quot; class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;2. 基础处理者&amp;nbsp;（Base Handler）&amp;nbsp;是一个可选的类，&amp;nbsp;你可以将所有处理者共用的样本代码放置在其中。通常情况下，&amp;nbsp;该类中定义了一个保存对于下个处理者引用的成员变量。&amp;nbsp;客户端可通过将处理者传递给上个处理者的构造函数或设定方法来创建链。&amp;nbsp;该类还可以实现默认的处理行为：&amp;nbsp;确定下个处理者存在后再将请求传递给它。&lt;/p&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=default;strokeColor=#F2CC8F;strokeWidth=2;fontFamily=Times New Roman;fontSize=16;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="40" y="820" width="220" height="200" as="geometry" />
