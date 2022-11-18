@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T02:37:43.069Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="TsW1NeTlyC0ck4N6kc1-" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-18T02:38:06.865Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="_33KnqfoVLml6ecWObag" version="20.5.3" type="github">
   <diagram id="LliGrTo6IxOCmECgdEKM" name="第 1 页">
     <mxGraphModel dx="1751" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="0">
       <root>
@@ -240,6 +240,9 @@
         </mxCell>
         <mxCell id="y-x1a5SyWCCNWOdujIV2-62" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &amp;quot;Heiti SC Light&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;span style=&quot;&quot; class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;&lt;span style=&quot;&quot; class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;4.&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot; class=&quot;Apple-tab-span&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;Apple-tab-span&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;组件并不知道其他组件的情况。&amp;nbsp;如果组件内发生了重要事件，&amp;nbsp;它只能通知中介者。&amp;nbsp;中介者收到通知后能轻易地确定发送者，&amp;nbsp;这或许已足以判断接下来需要触发的组件了。对于组件来说，&amp;nbsp;中介者看上去完全就是一个黑箱。&amp;nbsp;发送者不知道最终会由谁来处理自己的请求，&amp;nbsp;接收者也不知道最初是谁发出了请求。&lt;/span&gt;&lt;/p&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=default;strokeColor=#F2CC8F;strokeWidth=2;fontFamily=Times New Roman;fontSize=16;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="-260" y="270" width="250" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="y-x1a5SyWCCNWOdujIV2-63" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=default;strokeColor=#F2CC8F;strokeWidth=2;fontFamily=Times New Roman;fontSize=14;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="10" width="1140" height="540" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
