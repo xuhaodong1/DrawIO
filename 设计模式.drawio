@@ -1,32 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T02:38:51.398Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="HU1yh_WOwX4nwfUuos7y" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-18T02:40:37.837Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="APgXGpYks1P2VlzxNMky" version="20.5.3" type="github">
   <diagram id="LliGrTo6IxOCmECgdEKM" name="第 1 页">
-    <mxGraphModel dx="1661" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="0">
+    <mxGraphModel dx="1977" dy="865" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="y-x1a5SyWCCNWOdujIV2-36" value="ConcreateHandler" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Times New Roman;fontSize=16;rounded=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=none;noLabel=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="1023" width="200" height="116" as="geometry" />
+        <mxCell id="y-x1a5SyWCCNWOdujIV2-66" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-280" y="10" width="1140" height="540" as="geometry" />
         </mxCell>
-        <mxCell id="y-x1a5SyWCCNWOdujIV2-40" value="func setNext(h: Handler)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=16;rounded=0;fontColor=none;noLabel=1;" vertex="1" parent="y-x1a5SyWCCNWOdujIV2-36">
-          <mxGeometry y="30" width="200" height="30" as="geometry" />
+        <mxCell id="As4aNOafPKZ8VDamvQL3-1" value="中介者模式结构：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=18;fontColor=#393C56;" parent="y-x1a5SyWCCNWOdujIV2-66" vertex="1">
+          <mxGeometry x="301" y="22.5" width="159" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="y-x1a5SyWCCNWOdujIV2-37" value="next: Handler" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=16;rounded=0;fontColor=none;noLabel=1;" vertex="1" parent="y-x1a5SyWCCNWOdujIV2-36">
-          <mxGeometry y="60" width="200" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="y-x1a5SyWCCNWOdujIV2-39" value="func handler(request)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=16;rounded=0;fontColor=none;noLabel=1;" vertex="1" parent="y-x1a5SyWCCNWOdujIV2-36">
-          <mxGeometry y="86" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="As4aNOafPKZ8VDamvQL3-1" value="中介者模式结构：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=18;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="21" y="32.5" width="159" height="33" as="geometry" />
-        </mxCell>
-        <mxCell id="KlUVC-nTQkEUZtXj6v6p-1" value="Mediator&lt;Interface&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Times New Roman;fontSize=16;rounded=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="331" y="110" width="200" height="60" as="geometry" />
+        <mxCell id="KlUVC-nTQkEUZtXj6v6p-1" value="Mediator&lt;Interface&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Times New Roman;fontSize=16;rounded=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="y-x1a5SyWCCNWOdujIV2-66" vertex="1">
+          <mxGeometry x="611" y="100" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KlUVC-nTQkEUZtXj6v6p-4" value="func notify(sender)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=16;rounded=0;fontColor=#393C56;" parent="KlUVC-nTQkEUZtXj6v6p-1" vertex="1">
           <mxGeometry y="30" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KlUVC-nTQkEUZtXj6v6p-5" value="ComponentA" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Times New Roman;fontSize=16;rounded=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="70" y="110" width="200" height="98" as="geometry" />
+        <mxCell id="KlUVC-nTQkEUZtXj6v6p-5" value="ComponentA" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Times New Roman;fontSize=16;rounded=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="y-x1a5SyWCCNWOdujIV2-66" vertex="1">
+          <mxGeometry x="350" y="100" width="200" height="98" as="geometry" />
         </mxCell>
         <mxCell id="KlUVC-nTQkEUZtXj6v6p-6" value="m: Mediator" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=16;rounded=0;fontColor=#393C56;" parent="KlUVC-nTQkEUZtXj6v6p-5" vertex="1">
           <mxGeometry y="30" width="200" height="30" as="geometry" />
@@ -37,11 +28,11 @@
         <mxCell id="KlUVC-nTQkEUZtXj6v6p-8" value="func operationA()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=16;rounded=0;fontColor=#393C56;" parent="KlUVC-nTQkEUZtXj6v6p-5" vertex="1">
           <mxGeometry y="68" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xFCIwbEzfBcp8esczOYy-46" style="edgeStyle=entityRelationEdgeStyle;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.005;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;shadow=0;strokeColor=#E07A5F;fontColor=#393C56;endArrow=open;endFill=0;startSize=10;fillColor=#F2CC8F;elbow=vertical;strokeWidth=2;" parent="1" source="OagiuF5iZt7tphXW1LkW-1" target="KlUVC-nTQkEUZtXj6v6p-4" edge="1">
+        <mxCell id="xFCIwbEzfBcp8esczOYy-46" style="edgeStyle=entityRelationEdgeStyle;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.005;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;shadow=0;strokeColor=#E07A5F;fontColor=#393C56;endArrow=open;endFill=0;startSize=10;fillColor=#F2CC8F;elbow=vertical;strokeWidth=2;" parent="y-x1a5SyWCCNWOdujIV2-66" source="OagiuF5iZt7tphXW1LkW-1" target="KlUVC-nTQkEUZtXj6v6p-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OagiuF5iZt7tphXW1LkW-1" value="ComponentB" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Times New Roman;fontSize=16;rounded=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="600" y="110" width="200" height="98" as="geometry" />
+        <mxCell id="OagiuF5iZt7tphXW1LkW-1" value="ComponentB" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Times New Roman;fontSize=16;rounded=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="y-x1a5SyWCCNWOdujIV2-66" vertex="1">
+          <mxGeometry x="880" y="100" width="200" height="98" as="geometry" />
         </mxCell>
         <mxCell id="OagiuF5iZt7tphXW1LkW-2" value="m: Mediator" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=16;rounded=0;fontColor=#393C56;" parent="OagiuF5iZt7tphXW1LkW-1" vertex="1">
           <mxGeometry y="30" width="200" height="30" as="geometry" />
@@ -52,8 +43,8 @@
         <mxCell id="OagiuF5iZt7tphXW1LkW-4" value="func operationB()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=16;rounded=0;fontColor=#393C56;" parent="OagiuF5iZt7tphXW1LkW-1" vertex="1">
           <mxGeometry y="68" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OagiuF5iZt7tphXW1LkW-5" value="ComponentC" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Times New Roman;fontSize=16;rounded=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="70" y="240" width="200" height="98" as="geometry" />
+        <mxCell id="OagiuF5iZt7tphXW1LkW-5" value="ComponentC" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Times New Roman;fontSize=16;rounded=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="y-x1a5SyWCCNWOdujIV2-66" vertex="1">
+          <mxGeometry x="350" y="230" width="200" height="98" as="geometry" />
         </mxCell>
         <mxCell id="OagiuF5iZt7tphXW1LkW-6" value="m: Mediator" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=16;rounded=0;fontColor=#393C56;" parent="OagiuF5iZt7tphXW1LkW-5" vertex="1">
           <mxGeometry y="30" width="200" height="30" as="geometry" />
@@ -64,8 +55,8 @@
         <mxCell id="OagiuF5iZt7tphXW1LkW-8" value="func operationC()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=16;rounded=0;fontColor=#393C56;" parent="OagiuF5iZt7tphXW1LkW-5" vertex="1">
           <mxGeometry y="68" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OagiuF5iZt7tphXW1LkW-9" value="ComponentD" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Times New Roman;fontSize=16;rounded=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="600" y="240" width="200" height="98" as="geometry" />
+        <mxCell id="OagiuF5iZt7tphXW1LkW-9" value="ComponentD" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Times New Roman;fontSize=16;rounded=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="y-x1a5SyWCCNWOdujIV2-66" vertex="1">
+          <mxGeometry x="880" y="230" width="200" height="98" as="geometry" />
         </mxCell>
         <mxCell id="OagiuF5iZt7tphXW1LkW-10" value="m: Mediator" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=16;rounded=0;fontColor=#393C56;" parent="OagiuF5iZt7tphXW1LkW-9" vertex="1">
           <mxGeometry y="30" width="200" height="30" as="geometry" />
@@ -76,35 +67,35 @@
         <mxCell id="OagiuF5iZt7tphXW1LkW-12" value="func operationD()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=16;rounded=0;fontColor=#393C56;" parent="OagiuF5iZt7tphXW1LkW-9" vertex="1">
           <mxGeometry y="68" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xFCIwbEzfBcp8esczOYy-49" style="edgeStyle=elbowEdgeStyle;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.471;entryY=1.063;entryDx=0;entryDy=0;entryPerimeter=0;shadow=0;strokeColor=#E07A5F;fontColor=#393C56;endArrow=block;endFill=0;startSize=10;fillColor=#F2CC8F;strokeWidth=2;" parent="1" source="xFCIwbEzfBcp8esczOYy-5" target="KlUVC-nTQkEUZtXj6v6p-4" edge="1">
+        <mxCell id="xFCIwbEzfBcp8esczOYy-49" style="edgeStyle=elbowEdgeStyle;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.471;entryY=1.063;entryDx=0;entryDy=0;entryPerimeter=0;shadow=0;strokeColor=#E07A5F;fontColor=#393C56;endArrow=block;endFill=0;startSize=10;fillColor=#F2CC8F;strokeWidth=2;" parent="y-x1a5SyWCCNWOdujIV2-66" source="xFCIwbEzfBcp8esczOYy-5" target="KlUVC-nTQkEUZtXj6v6p-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xFCIwbEzfBcp8esczOYy-50" style="edgeStyle=elbowEdgeStyle;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;strokeColor=#E07A5F;strokeWidth=2;fontColor=#393C56;endArrow=open;endFill=0;startSize=10;fillColor=#F2CC8F;startArrow=diamondThin;startFill=1;" parent="1" target="KlUVC-nTQkEUZtXj6v6p-6" edge="1">
+        <mxCell id="xFCIwbEzfBcp8esczOYy-50" style="edgeStyle=elbowEdgeStyle;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;strokeColor=#E07A5F;strokeWidth=2;fontColor=#393C56;endArrow=open;endFill=0;startSize=10;fillColor=#F2CC8F;startArrow=diamondThin;startFill=1;" parent="y-x1a5SyWCCNWOdujIV2-66" target="KlUVC-nTQkEUZtXj6v6p-6" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="330" y="378" as="sourcePoint" />
+            <mxPoint x="610" y="368" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="30" y="280" />
+              <mxPoint x="310" y="270" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xFCIwbEzfBcp8esczOYy-53" style="edgeStyle=elbowEdgeStyle;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.016;entryY=0.824;entryDx=0;entryDy=0;entryPerimeter=0;shadow=0;strokeColor=#E07A5F;strokeWidth=2;fontColor=#393C56;endArrow=open;endFill=0;startSize=10;fillColor=#F2CC8F;exitX=0.996;exitY=0.479;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=diamondThin;startFill=1;" parent="1" source="xFCIwbEzfBcp8esczOYy-7" target="OagiuF5iZt7tphXW1LkW-2" edge="1">
+        <mxCell id="xFCIwbEzfBcp8esczOYy-53" style="edgeStyle=elbowEdgeStyle;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.016;entryY=0.824;entryDx=0;entryDy=0;entryPerimeter=0;shadow=0;strokeColor=#E07A5F;strokeWidth=2;fontColor=#393C56;endArrow=open;endFill=0;startSize=10;fillColor=#F2CC8F;exitX=0.996;exitY=0.479;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=diamondThin;startFill=1;" parent="y-x1a5SyWCCNWOdujIV2-66" source="xFCIwbEzfBcp8esczOYy-7" target="OagiuF5iZt7tphXW1LkW-2" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="530" y="380" as="sourcePoint" />
+            <mxPoint x="810" y="370" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="840" y="230" />
-              <mxPoint x="840" y="300" />
+              <mxPoint x="1120" y="220" />
+              <mxPoint x="1120" y="290" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xFCIwbEzfBcp8esczOYy-54" style="edgeStyle=elbowEdgeStyle;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;shadow=0;strokeColor=#E07A5F;strokeWidth=2;fontColor=#393C56;endArrow=open;endFill=0;startSize=10;fillColor=#F2CC8F;exitX=0.999;exitY=0.481;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=diamondThin;startFill=1;" parent="1" source="xFCIwbEzfBcp8esczOYy-7" target="OagiuF5iZt7tphXW1LkW-10" edge="1">
+        <mxCell id="xFCIwbEzfBcp8esczOYy-54" style="edgeStyle=elbowEdgeStyle;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;shadow=0;strokeColor=#E07A5F;strokeWidth=2;fontColor=#393C56;endArrow=open;endFill=0;startSize=10;fillColor=#F2CC8F;exitX=0.999;exitY=0.481;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=diamondThin;startFill=1;" parent="y-x1a5SyWCCNWOdujIV2-66" source="xFCIwbEzfBcp8esczOYy-7" target="OagiuF5iZt7tphXW1LkW-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="840" y="350" />
+              <mxPoint x="1120" y="340" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xFCIwbEzfBcp8esczOYy-5" value="ConcreateMediator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Times New Roman;fontSize=16;rounded=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="330" y="240" width="200" height="292" as="geometry" />
+        <mxCell id="xFCIwbEzfBcp8esczOYy-5" value="ConcreateMediator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Times New Roman;fontSize=16;rounded=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="y-x1a5SyWCCNWOdujIV2-66" vertex="1">
+          <mxGeometry x="610" y="230" width="200" height="292" as="geometry" />
         </mxCell>
         <mxCell id="xFCIwbEzfBcp8esczOYy-6" value="componentA: ComponentA" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=16;rounded=0;fontColor=#393C56;" parent="xFCIwbEzfBcp8esczOYy-5" vertex="1">
           <mxGeometry y="30" width="200" height="26" as="geometry" />
@@ -136,33 +127,63 @@
         <mxCell id="xFCIwbEzfBcp8esczOYy-44" value="func reactOnD()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=16;rounded=0;fontColor=#393C56;" parent="xFCIwbEzfBcp8esczOYy-5" vertex="1">
           <mxGeometry y="262" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xFCIwbEzfBcp8esczOYy-45" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;endArrow=open;endFill=0;startSize=10;shadow=0;sketch=0;strokeWidth=2;" parent="1" source="KlUVC-nTQkEUZtXj6v6p-6" edge="1">
+        <mxCell id="xFCIwbEzfBcp8esczOYy-45" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;endArrow=open;endFill=0;startSize=10;shadow=0;sketch=0;strokeWidth=2;" parent="y-x1a5SyWCCNWOdujIV2-66" source="KlUVC-nTQkEUZtXj6v6p-6" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="330" y="140" as="targetPoint" />
+            <mxPoint x="610" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xFCIwbEzfBcp8esczOYy-47" style="edgeStyle=entityRelationEdgeStyle;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;shadow=0;strokeColor=#E07A5F;fontColor=#393C56;endArrow=open;endFill=0;startSize=10;fillColor=#F2CC8F;strokeWidth=2;" parent="1" source="OagiuF5iZt7tphXW1LkW-6" edge="1">
+        <mxCell id="xFCIwbEzfBcp8esczOYy-47" style="edgeStyle=entityRelationEdgeStyle;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;shadow=0;strokeColor=#E07A5F;fontColor=#393C56;endArrow=open;endFill=0;startSize=10;fillColor=#F2CC8F;strokeWidth=2;" parent="y-x1a5SyWCCNWOdujIV2-66" source="OagiuF5iZt7tphXW1LkW-6" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="330" y="140" as="targetPoint" />
+            <mxPoint x="610" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xFCIwbEzfBcp8esczOYy-48" style="edgeStyle=elbowEdgeStyle;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;shadow=0;strokeColor=#E07A5F;fontColor=#393C56;endArrow=open;endFill=0;startSize=10;fillColor=#F2CC8F;strokeWidth=2;" parent="1" source="OagiuF5iZt7tphXW1LkW-10" edge="1">
+        <mxCell id="xFCIwbEzfBcp8esczOYy-48" style="edgeStyle=elbowEdgeStyle;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;shadow=0;strokeColor=#E07A5F;fontColor=#393C56;endArrow=open;endFill=0;startSize=10;fillColor=#F2CC8F;strokeWidth=2;" parent="y-x1a5SyWCCNWOdujIV2-66" source="OagiuF5iZt7tphXW1LkW-10" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="530" y="140" as="targetPoint" />
+            <mxPoint x="810" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xFCIwbEzfBcp8esczOYy-51" style="edgeStyle=elbowEdgeStyle;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;strokeColor=#E07A5F;strokeWidth=2;fontColor=#393C56;endArrow=open;endFill=0;startSize=10;fillColor=#F2CC8F;startArrow=diamondThin;startFill=1;" parent="1" source="xFCIwbEzfBcp8esczOYy-7" target="OagiuF5iZt7tphXW1LkW-6" edge="1">
+        <mxCell id="xFCIwbEzfBcp8esczOYy-51" style="edgeStyle=elbowEdgeStyle;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;strokeColor=#E07A5F;strokeWidth=2;fontColor=#393C56;endArrow=open;endFill=0;startSize=10;fillColor=#F2CC8F;startArrow=diamondThin;startFill=1;" parent="y-x1a5SyWCCNWOdujIV2-66" source="xFCIwbEzfBcp8esczOYy-7" target="OagiuF5iZt7tphXW1LkW-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="30" y="340" />
+              <mxPoint x="310" y="330" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="g1SRzkxm-KbwQc-2ITOF-1" value="责任链模式结构：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=18;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="40" y="630" width="159" height="33" as="geometry" />
+        <mxCell id="y-x1a5SyWCCNWOdujIV2-58" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;1.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Heiti SC Light&amp;quot;; font-size: 14px; text-align: start; background-color: initial;&quot; class=&quot;Apple-tab-span&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Heiti SC Light&amp;quot;; font-size: 14px; text-align: start; background-color: initial;&quot; class=&quot;Apple-tab-span&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Heiti SC Light&amp;quot;; font-size: 14px; text-align: start; background-color: initial;&quot;&gt;组件&amp;nbsp;（Component）&amp;nbsp;是各种包含业务逻辑的类。&amp;nbsp;每个组件都有一个指向中介者的引用，&amp;nbsp;该引用被声明为中介者接口类型。&amp;nbsp;组件不知道中介者实际所属的类，&amp;nbsp;因此你可通过将其连接到不同的中介者以使其能在其他程序中复用。&lt;/span&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=default;strokeColor=#F2CC8F;strokeWidth=2;fontFamily=Times New Roman;fontSize=16;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="y-x1a5SyWCCNWOdujIV2-66">
+          <mxGeometry x="20" y="100" width="250" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="y-x1a5SyWCCNWOdujIV2-1" value="Handler&lt;Interface&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Times New Roman;fontSize=16;rounded=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
-          <mxGeometry x="330" y="681" width="200" height="90" as="geometry" />
+        <mxCell id="y-x1a5SyWCCNWOdujIV2-60" value="&lt;span style=&quot;font-size: 14px; text-align: left;&quot;&gt;2. 中介者&amp;nbsp;（Mediator）&amp;nbsp;接口声明了与组件交流的方法，&amp;nbsp;但通常仅包括一个通知方法。&amp;nbsp;组件可将任意上下文&amp;nbsp;（包括自己的对象）&amp;nbsp;作为该方法的参数，&amp;nbsp;只有这样接收组件和发送者类之间才不会耦合。&lt;/span&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=default;strokeColor=#F2CC8F;strokeWidth=2;fontFamily=Times New Roman;fontSize=16;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="y-x1a5SyWCCNWOdujIV2-66">
+          <mxGeometry x="520" y="22.5" width="420" height="54.5" as="geometry" />
+        </mxCell>
+        <mxCell id="y-x1a5SyWCCNWOdujIV2-61" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &amp;quot;Heiti SC Light&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;span style=&quot;&quot; class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;&lt;span style=&quot;&quot; class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;3. 具体中介者&amp;nbsp;（Concrete Mediator）&amp;nbsp;封装了多种组件间的关系。&amp;nbsp;具体中介者通常会保存所有组件的引用并对其进行管理，&amp;nbsp;甚至有时会对其生命周期进行管理。&lt;/p&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=default;strokeColor=#F2CC8F;strokeWidth=2;fontFamily=Times New Roman;fontSize=16;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="y-x1a5SyWCCNWOdujIV2-66">
+          <mxGeometry x="850" y="402" width="250" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="y-x1a5SyWCCNWOdujIV2-62" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &amp;quot;Heiti SC Light&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;span style=&quot;&quot; class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;&lt;span style=&quot;&quot; class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;4.&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot; class=&quot;Apple-tab-span&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;Apple-tab-span&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;组件并不知道其他组件的情况。&amp;nbsp;如果组件内发生了重要事件，&amp;nbsp;它只能通知中介者。&amp;nbsp;中介者收到通知后能轻易地确定发送者，&amp;nbsp;这或许已足以判断接下来需要触发的组件了。对于组件来说，&amp;nbsp;中介者看上去完全就是一个黑箱。&amp;nbsp;发送者不知道最终会由谁来处理自己的请求，&amp;nbsp;接收者也不知道最初是谁发出了请求。&lt;/span&gt;&lt;/p&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=default;strokeColor=#F2CC8F;strokeWidth=2;fontFamily=Times New Roman;fontSize=16;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="y-x1a5SyWCCNWOdujIV2-66">
+          <mxGeometry x="20" y="260" width="250" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="y-x1a5SyWCCNWOdujIV2-63" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=default;strokeColor=#F2CC8F;strokeWidth=2;fontFamily=Times New Roman;fontSize=14;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="y-x1a5SyWCCNWOdujIV2-66">
+          <mxGeometry width="1140" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="y-x1a5SyWCCNWOdujIV2-67" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="21" y="616.5" width="819" height="543.5" as="geometry" />
+        </mxCell>
+        <mxCell id="y-x1a5SyWCCNWOdujIV2-36" value="ConcreateHandler" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Times New Roman;fontSize=16;rounded=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=none;noLabel=1;" vertex="1" parent="y-x1a5SyWCCNWOdujIV2-67">
+          <mxGeometry x="319" y="406.5" width="200" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="y-x1a5SyWCCNWOdujIV2-40" value="func setNext(h: Handler)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=16;rounded=0;fontColor=none;noLabel=1;" vertex="1" parent="y-x1a5SyWCCNWOdujIV2-36">
+          <mxGeometry y="30" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y-x1a5SyWCCNWOdujIV2-37" value="next: Handler" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=16;rounded=0;fontColor=none;noLabel=1;" vertex="1" parent="y-x1a5SyWCCNWOdujIV2-36">
+          <mxGeometry y="60" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="y-x1a5SyWCCNWOdujIV2-39" value="func handler(request)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=16;rounded=0;fontColor=none;noLabel=1;" vertex="1" parent="y-x1a5SyWCCNWOdujIV2-36">
+          <mxGeometry y="86" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g1SRzkxm-KbwQc-2ITOF-1" value="责任链模式结构：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=18;fontColor=#393C56;" parent="y-x1a5SyWCCNWOdujIV2-67" vertex="1">
+          <mxGeometry x="19" y="13.5" width="159" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="y-x1a5SyWCCNWOdujIV2-1" value="Handler&lt;Interface&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Times New Roman;fontSize=16;rounded=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="y-x1a5SyWCCNWOdujIV2-67">
+          <mxGeometry x="309" y="64.5" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="y-x1a5SyWCCNWOdujIV2-2" value="func setNext(h: Handler)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=16;rounded=0;fontColor=#393C56;" vertex="1" parent="y-x1a5SyWCCNWOdujIV2-1">
           <mxGeometry y="30" width="200" height="30" as="geometry" />
@@ -170,19 +191,19 @@
         <mxCell id="y-x1a5SyWCCNWOdujIV2-3" value="func handler(request)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=16;rounded=0;fontColor=#393C56;" vertex="1" parent="y-x1a5SyWCCNWOdujIV2-1">
           <mxGeometry y="60" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="y-x1a5SyWCCNWOdujIV2-46" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.505;entryY=0.997;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;fontFamily=Times New Roman;fontSize=18;fontColor=default;endArrow=block;endFill=0;dashed=1;" edge="1" parent="1" source="y-x1a5SyWCCNWOdujIV2-13" target="y-x1a5SyWCCNWOdujIV2-3">
+        <mxCell id="y-x1a5SyWCCNWOdujIV2-46" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.505;entryY=0.997;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;fontFamily=Times New Roman;fontSize=18;fontColor=default;endArrow=block;endFill=0;dashed=1;" edge="1" parent="y-x1a5SyWCCNWOdujIV2-67" source="y-x1a5SyWCCNWOdujIV2-13" target="y-x1a5SyWCCNWOdujIV2-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="y-x1a5SyWCCNWOdujIV2-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.007;entryY=0.105;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;fontFamily=Times New Roman;fontSize=18;fontColor=default;endArrow=open;endFill=0;startArrow=diamondThin;startFill=0;" edge="1" parent="1" source="y-x1a5SyWCCNWOdujIV2-13" target="y-x1a5SyWCCNWOdujIV2-2">
+        <mxCell id="y-x1a5SyWCCNWOdujIV2-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.007;entryY=0.105;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;fontFamily=Times New Roman;fontSize=18;fontColor=default;endArrow=open;endFill=0;startArrow=diamondThin;startFill=0;" edge="1" parent="y-x1a5SyWCCNWOdujIV2-67" source="y-x1a5SyWCCNWOdujIV2-13" target="y-x1a5SyWCCNWOdujIV2-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="280" y="891" />
-              <mxPoint x="280" y="714" />
+              <mxPoint x="259" y="274.5" />
+              <mxPoint x="259" y="97.5" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="y-x1a5SyWCCNWOdujIV2-13" value="BaseHandler" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Times New Roman;fontSize=16;rounded=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
-          <mxGeometry x="330" y="831" width="200" height="124" as="geometry" />
+        <mxCell id="y-x1a5SyWCCNWOdujIV2-13" value="BaseHandler" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Times New Roman;fontSize=16;rounded=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="y-x1a5SyWCCNWOdujIV2-67">
+          <mxGeometry x="309" y="214.5" width="200" height="124" as="geometry" />
         </mxCell>
         <mxCell id="y-x1a5SyWCCNWOdujIV2-14" value="next: Handler" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=16;rounded=0;fontColor=#393C56;" vertex="1" parent="y-x1a5SyWCCNWOdujIV2-13">
           <mxGeometry y="30" width="200" height="26" as="geometry" />
@@ -196,11 +217,11 @@
         <mxCell id="y-x1a5SyWCCNWOdujIV2-24" value="func setNext(h: Handler)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=16;rounded=0;fontColor=#393C56;" vertex="1" parent="y-x1a5SyWCCNWOdujIV2-13">
           <mxGeometry y="94" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="y-x1a5SyWCCNWOdujIV2-47" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontFamily=Times New Roman;fontSize=18;fontColor=default;endArrow=block;endFill=0;" edge="1" parent="1" source="y-x1a5SyWCCNWOdujIV2-26" target="y-x1a5SyWCCNWOdujIV2-24">
+        <mxCell id="y-x1a5SyWCCNWOdujIV2-47" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontFamily=Times New Roman;fontSize=18;fontColor=default;endArrow=block;endFill=0;" edge="1" parent="y-x1a5SyWCCNWOdujIV2-67" source="y-x1a5SyWCCNWOdujIV2-26" target="y-x1a5SyWCCNWOdujIV2-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="y-x1a5SyWCCNWOdujIV2-26" value="ConcreateHandler" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Times New Roman;fontSize=16;rounded=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
-          <mxGeometry x="330" y="1013" width="200" height="120" as="geometry" />
+        <mxCell id="y-x1a5SyWCCNWOdujIV2-26" value="ConcreateHandler" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Times New Roman;fontSize=16;rounded=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="y-x1a5SyWCCNWOdujIV2-67">
+          <mxGeometry x="309" y="396.5" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="y-x1a5SyWCCNWOdujIV2-27" value="next: Handler" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=16;rounded=0;fontColor=#393C56;" vertex="1" parent="y-x1a5SyWCCNWOdujIV2-26">
           <mxGeometry y="30" width="200" height="30" as="geometry" />
@@ -211,41 +232,26 @@
         <mxCell id="y-x1a5SyWCCNWOdujIV2-30" value="func setNext(h: Handler)" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=16;rounded=0;fontColor=#393C56;" vertex="1" parent="y-x1a5SyWCCNWOdujIV2-26">
           <mxGeometry y="90" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="y-x1a5SyWCCNWOdujIV2-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=18;fontColor=default;endArrow=open;endFill=0;strokeWidth=2;" edge="1" parent="1" source="y-x1a5SyWCCNWOdujIV2-43" target="y-x1a5SyWCCNWOdujIV2-2">
+        <mxCell id="y-x1a5SyWCCNWOdujIV2-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=18;fontColor=default;endArrow=open;endFill=0;strokeWidth=2;" edge="1" parent="y-x1a5SyWCCNWOdujIV2-67" source="y-x1a5SyWCCNWOdujIV2-43" target="y-x1a5SyWCCNWOdujIV2-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="y-x1a5SyWCCNWOdujIV2-43" value="Client" style="html=1;labelBackgroundColor=none;fontColor=default;fillColor=none;gradientColor=none;fontSize=18;fontFamily=Times New Roman;strokeColor=#F2CC8F;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="600" y="701" width="200" height="50" as="geometry" />
+        <mxCell id="y-x1a5SyWCCNWOdujIV2-43" value="Client" style="html=1;labelBackgroundColor=none;fontColor=default;fillColor=none;gradientColor=none;fontSize=18;fontFamily=Times New Roman;strokeColor=#F2CC8F;strokeWidth=2;" vertex="1" parent="y-x1a5SyWCCNWOdujIV2-67">
+          <mxGeometry x="579" y="84.5" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="y-x1a5SyWCCNWOdujIV2-54" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;1. 处理者(Handler)&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;Heiti SC Light&amp;quot;; text-align: start; background-color: initial;&quot;&gt;声明了所有具体处理者的通用接口。&amp;nbsp;该接口通常仅包含单个方法用于请求处理，&amp;nbsp;但有时其还会包含一个设置链上下个处理者的方法。&lt;/span&gt;&lt;/font&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=default;strokeColor=#F2CC8F;strokeWidth=2;fontFamily=Times New Roman;fontSize=16;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="40" y="711" width="220" height="100" as="geometry" />
+        <mxCell id="y-x1a5SyWCCNWOdujIV2-54" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;1. 处理者(Handler)&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;Heiti SC Light&amp;quot;; text-align: start; background-color: initial;&quot;&gt;声明了所有具体处理者的通用接口。&amp;nbsp;该接口通常仅包含单个方法用于请求处理，&amp;nbsp;但有时其还会包含一个设置链上下个处理者的方法。&lt;/span&gt;&lt;/font&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=default;strokeColor=#F2CC8F;strokeWidth=2;fontFamily=Times New Roman;fontSize=16;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="y-x1a5SyWCCNWOdujIV2-67">
+          <mxGeometry x="19" y="94.5" width="220" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="y-x1a5SyWCCNWOdujIV2-55" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &amp;quot;Heiti SC Light&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;span style=&quot;&quot; class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;&lt;span style=&quot;&quot; class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;2. 基础处理者&amp;nbsp;（Base Handler）&amp;nbsp;是一个可选的类，&amp;nbsp;你可以将所有处理者共用的样本代码放置在其中。&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &amp;quot;Heiti SC Light&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;通常情况下，&amp;nbsp;该类中定义了一个保存对于下个处理者引用的成员变量。&amp;nbsp;客户端可通过将处理者传递给上个处理者的构造函数或设定方法来创建链。&amp;nbsp;该类还可以实现默认的处理行为：&amp;nbsp;确定下个处理者存在后再将请求传递给它。&lt;/p&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=default;strokeColor=#F2CC8F;strokeWidth=2;fontFamily=Times New Roman;fontSize=16;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="40" y="871" width="220" height="200" as="geometry" />
+        <mxCell id="y-x1a5SyWCCNWOdujIV2-55" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &amp;quot;Heiti SC Light&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;span style=&quot;&quot; class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;&lt;span style=&quot;&quot; class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;2. 基础处理者&amp;nbsp;（Base Handler）&amp;nbsp;是一个可选的类，&amp;nbsp;你可以将所有处理者共用的样本代码放置在其中。&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &amp;quot;Heiti SC Light&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;通常情况下，&amp;nbsp;该类中定义了一个保存对于下个处理者引用的成员变量。&amp;nbsp;客户端可通过将处理者传递给上个处理者的构造函数或设定方法来创建链。&amp;nbsp;该类还可以实现默认的处理行为：&amp;nbsp;确定下个处理者存在后再将请求传递给它。&lt;/p&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=default;strokeColor=#F2CC8F;strokeWidth=2;fontFamily=Times New Roman;fontSize=16;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="y-x1a5SyWCCNWOdujIV2-67">
+          <mxGeometry x="19" y="254.5" width="220" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="y-x1a5SyWCCNWOdujIV2-56" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &amp;quot;Heiti SC Light&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;span style=&quot;&quot; class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &amp;quot;Heiti SC Light&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;span style=&quot;&quot; class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;&lt;span style=&quot;&quot; class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;3. 具体处理者&amp;nbsp;（Concrete Handlers）&amp;nbsp;包含处理请求的实际代码。&amp;nbsp;每个处理者接收到请求后，&amp;nbsp;都必须决定是否进行处理，&amp;nbsp;以及是否沿着链传递请求。&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &amp;quot;Heiti SC Light&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;处理者通常是独立且不可变的，&amp;nbsp;需要通过构造函数一次性地获得所有必要地数据。&lt;/p&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=default;strokeColor=#F2CC8F;strokeWidth=2;fontFamily=Times New Roman;fontSize=16;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="570" y="902" width="250" height="138" as="geometry" />
+        <mxCell id="y-x1a5SyWCCNWOdujIV2-56" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &amp;quot;Heiti SC Light&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;span style=&quot;&quot; class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &amp;quot;Heiti SC Light&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;span style=&quot;&quot; class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;&lt;span style=&quot;&quot; class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;3. 具体处理者&amp;nbsp;（Concrete Handlers）&amp;nbsp;包含处理请求的实际代码。&amp;nbsp;每个处理者接收到请求后，&amp;nbsp;都必须决定是否进行处理，&amp;nbsp;以及是否沿着链传递请求。&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &amp;quot;Heiti SC Light&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;处理者通常是独立且不可变的，&amp;nbsp;需要通过构造函数一次性地获得所有必要地数据。&lt;/p&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=default;strokeColor=#F2CC8F;strokeWidth=2;fontFamily=Times New Roman;fontSize=16;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="y-x1a5SyWCCNWOdujIV2-67">
+          <mxGeometry x="549" y="285.5" width="250" height="138" as="geometry" />
         </mxCell>
-        <mxCell id="y-x1a5SyWCCNWOdujIV2-57" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &amp;quot;Heiti SC Light&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;span style=&quot;&quot; class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &amp;quot;Heiti SC Light&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;span style=&quot;&quot; class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &amp;quot;Heiti SC Light&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;span style=&quot;&quot; class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;&lt;span style=&quot;&quot; class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;4. 客户端&amp;nbsp;（Client）&amp;nbsp;可根据程序逻辑一次性或者动态地生成链。&amp;nbsp;值得注意的是，&amp;nbsp;请求可发送给链上的任意一个处理者，&amp;nbsp;而非必须是第一个处理者。&lt;/p&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=default;strokeColor=#F2CC8F;strokeWidth=2;fontFamily=Times New Roman;fontSize=16;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="570" y="771" width="250" height="80" as="geometry" />
+        <mxCell id="y-x1a5SyWCCNWOdujIV2-57" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &amp;quot;Heiti SC Light&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;span style=&quot;&quot; class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &amp;quot;Heiti SC Light&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;span style=&quot;&quot; class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &amp;quot;Heiti SC Light&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;span style=&quot;&quot; class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;&lt;span style=&quot;&quot; class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;4. 客户端&amp;nbsp;（Client）&amp;nbsp;可根据程序逻辑一次性或者动态地生成链。&amp;nbsp;值得注意的是，&amp;nbsp;请求可发送给链上的任意一个处理者，&amp;nbsp;而非必须是第一个处理者。&lt;/p&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=default;strokeColor=#F2CC8F;strokeWidth=2;fontFamily=Times New Roman;fontSize=16;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="y-x1a5SyWCCNWOdujIV2-67">
+          <mxGeometry x="549" y="154.5" width="250" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="y-x1a5SyWCCNWOdujIV2-58" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;1.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Heiti SC Light&amp;quot;; font-size: 14px; text-align: start; background-color: initial;&quot; class=&quot;Apple-tab-span&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Heiti SC Light&amp;quot;; font-size: 14px; text-align: start; background-color: initial;&quot; class=&quot;Apple-tab-span&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Heiti SC Light&amp;quot;; font-size: 14px; text-align: start; background-color: initial;&quot;&gt;组件&amp;nbsp;（Component）&amp;nbsp;是各种包含业务逻辑的类。&amp;nbsp;每个组件都有一个指向中介者的引用，&amp;nbsp;该引用被声明为中介者接口类型。&amp;nbsp;组件不知道中介者实际所属的类，&amp;nbsp;因此你可通过将其连接到不同的中介者以使其能在其他程序中复用。&lt;/span&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=default;strokeColor=#F2CC8F;strokeWidth=2;fontFamily=Times New Roman;fontSize=16;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-260" y="110" width="250" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="y-x1a5SyWCCNWOdujIV2-60" value="&lt;span style=&quot;font-size: 14px; text-align: left;&quot;&gt;2. 中介者&amp;nbsp;（Mediator）&amp;nbsp;接口声明了与组件交流的方法，&amp;nbsp;但通常仅包括一个通知方法。&amp;nbsp;组件可将任意上下文&amp;nbsp;（包括自己的对象）&amp;nbsp;作为该方法的参数，&amp;nbsp;只有这样接收组件和发送者类之间才不会耦合。&lt;/span&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=default;strokeColor=#F2CC8F;strokeWidth=2;fontFamily=Times New Roman;fontSize=16;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="240" y="32.5" width="420" height="54.5" as="geometry" />
-        </mxCell>
-        <mxCell id="y-x1a5SyWCCNWOdujIV2-61" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &amp;quot;Heiti SC Light&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;span style=&quot;&quot; class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;&lt;span style=&quot;&quot; class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;3. 具体中介者&amp;nbsp;（Concrete Mediator）&amp;nbsp;封装了多种组件间的关系。&amp;nbsp;具体中介者通常会保存所有组件的引用并对其进行管理，&amp;nbsp;甚至有时会对其生命周期进行管理。&lt;/p&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=default;strokeColor=#F2CC8F;strokeWidth=2;fontFamily=Times New Roman;fontSize=16;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="570" y="412" width="250" height="98" as="geometry" />
-        </mxCell>
-        <mxCell id="y-x1a5SyWCCNWOdujIV2-62" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &amp;quot;Heiti SC Light&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;span style=&quot;&quot; class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;&lt;span style=&quot;&quot; class=&quot;Apple-tab-span&quot;&gt;&lt;/span&gt;4.&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot; class=&quot;Apple-tab-span&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;Apple-tab-span&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;组件并不知道其他组件的情况。&amp;nbsp;如果组件内发生了重要事件，&amp;nbsp;它只能通知中介者。&amp;nbsp;中介者收到通知后能轻易地确定发送者，&amp;nbsp;这或许已足以判断接下来需要触发的组件了。对于组件来说，&amp;nbsp;中介者看上去完全就是一个黑箱。&amp;nbsp;发送者不知道最终会由谁来处理自己的请求，&amp;nbsp;接收者也不知道最初是谁发出了请求。&lt;/span&gt;&lt;/p&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=default;strokeColor=#F2CC8F;strokeWidth=2;fontFamily=Times New Roman;fontSize=16;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-260" y="270" width="250" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="y-x1a5SyWCCNWOdujIV2-63" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=default;strokeColor=#F2CC8F;strokeWidth=2;fontFamily=Times New Roman;fontSize=14;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-280" y="10" width="1140" height="540" as="geometry" />
-        </mxCell>
-        <mxCell id="y-x1a5SyWCCNWOdujIV2-64" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=default;strokeColor=#F2CC8F;strokeWidth=2;fontFamily=Times New Roman;fontSize=14;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="21" y="616.5" width="819" height="543.5" as="geometry" />
+        <mxCell id="y-x1a5SyWCCNWOdujIV2-64" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=default;strokeColor=#F2CC8F;strokeWidth=2;fontFamily=Times New Roman;fontSize=14;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="y-x1a5SyWCCNWOdujIV2-67">
+          <mxGeometry width="819" height="543.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
