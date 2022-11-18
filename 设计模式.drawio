@@ -1,9 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T02:13:16.829Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="sLZENDqLER_rpPCj0kbt" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-18T02:18:28.442Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="3OwjxXH1W5IJd08hoIVS" version="20.5.3" type="github">
   <diagram id="LliGrTo6IxOCmECgdEKM" name="第 1 页">
-    <mxGraphModel dx="879" dy="384" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="0">
+    <mxGraphModel dx="411" dy="226" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="y-x1a5SyWCCNWOdujIV2-36" value="ConcreateHandler" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Times New Roman;fontSize=16;rounded=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=none;noLabel=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1010" width="200" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="y-x1a5SyWCCNWOdujIV2-40" value="func setNext(h: Handler)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=16;rounded=0;fontColor=none;noLabel=1;" vertex="1" parent="y-x1a5SyWCCNWOdujIV2-36">
+          <mxGeometry y="30" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y-x1a5SyWCCNWOdujIV2-37" value="next: Handler" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=16;rounded=0;fontColor=none;noLabel=1;" vertex="1" parent="y-x1a5SyWCCNWOdujIV2-36">
+          <mxGeometry y="60" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="y-x1a5SyWCCNWOdujIV2-39" value="func handler(request)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=16;rounded=0;fontColor=none;noLabel=1;" vertex="1" parent="y-x1a5SyWCCNWOdujIV2-36">
+          <mxGeometry y="86" width="200" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="As4aNOafPKZ8VDamvQL3-1" value="中介者模式结构：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=18;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="21" y="54" width="159" height="33" as="geometry" />
         </mxCell>
@@ -157,6 +169,33 @@
         </mxCell>
         <mxCell id="y-x1a5SyWCCNWOdujIV2-3" value="func handler(request)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=16;rounded=0;fontColor=#393C56;" vertex="1" parent="y-x1a5SyWCCNWOdujIV2-1">
           <mxGeometry y="60" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y-x1a5SyWCCNWOdujIV2-13" value="BaseHandler" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Times New Roman;fontSize=16;rounded=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="330" y="800" width="200" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="y-x1a5SyWCCNWOdujIV2-14" value="next: Handler" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=16;rounded=0;fontColor=#393C56;" vertex="1" parent="y-x1a5SyWCCNWOdujIV2-13">
+          <mxGeometry y="30" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="y-x1a5SyWCCNWOdujIV2-18" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#E07A5F;fontFamily=Times New Roman;fontSize=16;rounded=0;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" vertex="1" parent="y-x1a5SyWCCNWOdujIV2-13">
+          <mxGeometry y="56" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="y-x1a5SyWCCNWOdujIV2-25" value="func handler(request)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=16;rounded=0;fontColor=#393C56;" vertex="1" parent="y-x1a5SyWCCNWOdujIV2-13">
+          <mxGeometry y="64" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y-x1a5SyWCCNWOdujIV2-24" value="func setNext(h: Handler)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=16;rounded=0;fontColor=#393C56;" vertex="1" parent="y-x1a5SyWCCNWOdujIV2-13">
+          <mxGeometry y="94" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y-x1a5SyWCCNWOdujIV2-26" value="ConcreateHandler" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Times New Roman;fontSize=16;rounded=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1000" width="200" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="y-x1a5SyWCCNWOdujIV2-27" value="next: Handler" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=16;rounded=0;fontColor=#393C56;" vertex="1" parent="y-x1a5SyWCCNWOdujIV2-26">
+          <mxGeometry y="30" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="y-x1a5SyWCCNWOdujIV2-29" value="func handler(request)" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=16;rounded=0;fontColor=#393C56;" vertex="1" parent="y-x1a5SyWCCNWOdujIV2-26">
+          <mxGeometry y="56" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y-x1a5SyWCCNWOdujIV2-30" value="func setNext(h: Handler)" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=16;rounded=0;fontColor=#393C56;" vertex="1" parent="y-x1a5SyWCCNWOdujIV2-26">
+          <mxGeometry y="86" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
