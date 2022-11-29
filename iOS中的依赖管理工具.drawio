@@ -1,17 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2022-11-29T09:53:44.166Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="D1AihHYRj326dxD_Ye1z" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-29T11:12:03.069Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="34GSsadQ9B1hUpNQGY04" version="20.5.3" type="github">
   <diagram id="fTuVXSVJAu5WL4BmadJZ" name="第 1 页">
-    <mxGraphModel dx="1426" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="556" dy="305" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="MqyO6Q_pG1W6b98_2A76-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="140" width="610" height="360" as="geometry" />
+        <mxCell id="MqyO6Q_pG1W6b98_2A76-4" value="" style="group;fontSize=10;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="40" width="400" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="MqyO6Q_pG1W6b98_2A76-2" value="iOS中的依赖管理工具" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=49;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="80" y="140" width="610" height="360" as="geometry" />
+        <mxCell id="MqyO6Q_pG1W6b98_2A76-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MqyO6Q_pG1W6b98_2A76-4">
+          <mxGeometry width="390" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="MqyO6Q_pG1W6b98_2A76-3" value="by：nihao" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=30;" vertex="1" parent="1">
-          <mxGeometry x="530" y="450" width="150" height="40" as="geometry" />
+        <mxCell id="MqyO6Q_pG1W6b98_2A76-2" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;iOS中的依赖管理工具&lt;/font&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=37;fontFamily=Times New Roman;" vertex="1" parent="MqyO6Q_pG1W6b98_2A76-4">
+          <mxGeometry width="400" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="MqyO6Q_pG1W6b98_2A76-3" value="by：nihao" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=20;" vertex="1" parent="MqyO6Q_pG1W6b98_2A76-4">
+          <mxGeometry x="290" y="150" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
