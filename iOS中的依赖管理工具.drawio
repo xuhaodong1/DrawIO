@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-15T08:15:21.899Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="z609mWf2AqW7PaJPjhUd" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-16T01:39:24.713Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="YbDUxzl8IwCFEouUroGj" version="20.6.0" type="github">
   <diagram id="fTuVXSVJAu5WL4BmadJZ" name="第 1 页">
-    <mxGraphModel dx="1358" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="676" dy="421" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15,6 +15,30 @@
         </mxCell>
         <mxCell id="MqyO6Q_pG1W6b98_2A76-3" value="by：nihao" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=20;" parent="MqyO6Q_pG1W6b98_2A76-4" vertex="1">
           <mxGeometry x="290" y="150" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w4aTtrJlxH9xr4-HG7X3-1" value="cocoapods-downloader" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="760" y="280" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w4aTtrJlxH9xr4-HG7X3-2" value="CLAide" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="760" y="160" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w4aTtrJlxH9xr4-HG7X3-3" value="cocoapods-core" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="760" y="220" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w4aTtrJlxH9xr4-HG7X3-4" value="XcodeProj" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="590" y="310" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w4aTtrJlxH9xr4-HG7X3-5" value="Molinillo" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="760" y="340" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w4aTtrJlxH9xr4-HG7X3-6" value="Xcodeproj" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="760" y="400" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w4aTtrJlxH9xr4-HG7X3-7" value="Xcodeproj" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="760" y="460" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w4aTtrJlxH9xr4-HG7X3-8" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fontFamily=Times New Roman;fontSize=14;size=0.5;" vertex="1" parent="1">
+          <mxGeometry x="700" y="170" width="40" height="310" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
