@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-16T03:27:26.187Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="_tUcmtz9FT3SFMUNtYOn" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-16T03:29:13.755Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="q-oiVQY9RZSDkX2AnvnB" version="20.6.0" type="github">
   <diagram id="fTuVXSVJAu5WL4BmadJZ" name="第 1 页">
     <mxGraphModel dx="610" dy="402" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -88,28 +88,28 @@
         <mxCell id="w4aTtrJlxH9xr4-HG7X3-25" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fontFamily=Times New Roman;fontSize=14;size=0.5;" vertex="1" parent="1">
           <mxGeometry x="697" y="564" width="40" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="w4aTtrJlxH9xr4-HG7X3-26" value="命令解析器" style="text;strokeColor=none;fillColor=none;html=1;fontSize=14;fontStyle=0;verticalAlign=middle;align=center;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="w4aTtrJlxH9xr4-HG7X3-26" value="解析依赖" style="text;strokeColor=none;fillColor=none;html=1;fontSize=14;fontStyle=0;verticalAlign=middle;align=left;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="927" y="604" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="w4aTtrJlxH9xr4-HG7X3-27" value="DSL解析器" style="text;strokeColor=none;fillColor=none;html=1;fontSize=14;fontStyle=0;verticalAlign=middle;align=center;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="w4aTtrJlxH9xr4-HG7X3-27" value="下载依赖" style="text;strokeColor=none;fillColor=none;html=1;fontSize=14;fontStyle=0;verticalAlign=middle;align=left;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="927" y="654" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="w4aTtrJlxH9xr4-HG7X3-28" value="下载模块" style="text;strokeColor=none;fillColor=none;html=1;fontSize=14;fontStyle=0;verticalAlign=middle;align=left;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="w4aTtrJlxH9xr4-HG7X3-28" value="验证 target" style="text;strokeColor=none;fillColor=none;html=1;fontSize=14;fontStyle=0;verticalAlign=middle;align=left;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="927" y="704" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="w4aTtrJlxH9xr4-HG7X3-29" value="依赖仲裁算法" style="text;strokeColor=none;fillColor=none;html=1;fontSize=14;fontStyle=0;verticalAlign=middle;align=left;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="w4aTtrJlxH9xr4-HG7X3-29" value="生成工程文件" style="text;strokeColor=none;fillColor=none;html=1;fontSize=14;fontStyle=0;verticalAlign=middle;align=left;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="927" y="754" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="w4aTtrJlxH9xr4-HG7X3-30" value="Xcode 文件生成" style="text;strokeColor=none;fillColor=none;html=1;fontSize=14;fontStyle=0;verticalAlign=middle;align=left;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="w4aTtrJlxH9xr4-HG7X3-30" value="写入依赖" style="text;strokeColor=none;fillColor=none;html=1;fontSize=14;fontStyle=0;verticalAlign=middle;align=left;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="927" y="804" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="w4aTtrJlxH9xr4-HG7X3-31" value="CocoaPods 插件管理" style="text;strokeColor=none;fillColor=none;html=1;fontSize=14;fontStyle=0;verticalAlign=middle;align=left;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="w4aTtrJlxH9xr4-HG7X3-31" value="结束回调" style="text;strokeColor=none;fillColor=none;html=1;fontSize=14;fontStyle=0;verticalAlign=middle;align=left;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="927" y="854" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="w4aTtrJlxH9xr4-HG7X3-32" value="prepare" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="757" y="554" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="w4aTtrJlxH9xr4-HG7X3-33" value="命令行 / 安装" style="text;strokeColor=none;fillColor=none;html=1;fontSize=14;fontStyle=0;verticalAlign=middle;align=left;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="w4aTtrJlxH9xr4-HG7X3-33" value="环境准备" style="text;strokeColor=none;fillColor=none;html=1;fontSize=14;fontStyle=0;verticalAlign=middle;align=left;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="927" y="554" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
