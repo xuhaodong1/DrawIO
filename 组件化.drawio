@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-22T07:42:35.929Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="V49aeiAY7KeB8ZOA5uoN" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-22T08:08:27.339Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="qP8kRQDEW7xxdlJs3MB0" version="21.6.8" type="github">
   <diagram name="第 1 页" id="x82_LA83ciAqN6GJa8_j">
-    <mxGraphModel dx="1068" dy="1090" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1147" dy="1090" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -98,6 +98,31 @@
               <mxPoint x="420" y="318" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="TY6RuBEEMv1Jgl18mB2E-43" value="routable-ios&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=36;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="320" y="830" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TY6RuBEEMv1Jgl18mB2E-44" value="Routable" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="920" width="340" height="94" as="geometry">
+            <mxRectangle x="10" y="440" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TY6RuBEEMv1Jgl18mB2E-45" value="+ sharedRouter: Routable" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="TY6RuBEEMv1Jgl18mB2E-44">
+          <mxGeometry y="26" width="340" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="TY6RuBEEMv1Jgl18mB2E-46" value="+ newRouter: Routable" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="TY6RuBEEMv1Jgl18mB2E-44">
+          <mxGeometry y="60" width="340" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="TY6RuBEEMv1Jgl18mB2E-47" value="UPRouter" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="1080" width="340" height="94" as="geometry">
+            <mxRectangle x="10" y="440" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TY6RuBEEMv1Jgl18mB2E-48" value="routes: NSMutableDictionary" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Times New Roman;" vertex="1" parent="TY6RuBEEMv1Jgl18mB2E-47">
+          <mxGeometry y="26" width="340" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="TY6RuBEEMv1Jgl18mB2E-49" value="cachedRoutes: NSMutableDictionary" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Times New Roman;rounded=0;" vertex="1" parent="TY6RuBEEMv1Jgl18mB2E-47">
+          <mxGeometry y="60" width="340" height="34" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
