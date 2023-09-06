@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-06T12:39:58.599Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="s8DwFB5i6zqSu49-0tk5" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-06T13:42:21.941Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="-YPx1HwvwIb5nRbONWTg" version="21.6.8" type="github">
   <diagram id="u0rdx8rHvjp24UAevguv" name="第 1 页">
-    <mxGraphModel dx="1036" dy="343" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1763" dy="1134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1061,35 +1061,115 @@
         <mxCell id="DDZ6LUG9_i15dwgVKkXx-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="DDZ6LUG9_i15dwgVKkXx-10" target="DDZ6LUG9_i15dwgVKkXx-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DDZ6LUG9_i15dwgVKkXx-26" value="1. 通知 Observer：即将进入 Loop（Entry）" style="html=1;whiteSpace=wrap;align=left;fontSize=12;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="3860" y="250" width="270" height="20" as="geometry" />
+        <mxCell id="DDZ6LUG9_i15dwgVKkXx-36" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="3410" y="-114" width="1890" height="804" as="geometry" />
         </mxCell>
-        <mxCell id="DDZ6LUG9_i15dwgVKkXx-27" value="2. 通知 Observer：将要处理 Timer(BeforeTimers)" style="html=1;whiteSpace=wrap;align=left;fontSize=12;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="3860" y="280" width="270" height="20" as="geometry" />
+        <mxCell id="DDZ6LUG9_i15dwgVKkXx-26" value="1. 通知 Observer：即将进入 Loop &lt;font color=&quot;#ff3333&quot;&gt;(Entry)&lt;/font&gt;" style="html=1;whiteSpace=wrap;align=left;fontSize=12;fontFamily=Times New Roman;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3980" y="30" width="270" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="DDZ6LUG9_i15dwgVKkXx-28" value="3. 通知 Observer：将要处理 Source0(BeforeSources)" style="html=1;whiteSpace=wrap;align=left;fontSize=12;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="3860" y="310" width="270" height="20" as="geometry" />
+        <mxCell id="DDZ6LUG9_i15dwgVKkXx-39" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3970" y="55" width="290" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="DDZ6LUG9_i15dwgVKkXx-29" value="4. 处理 Source0" style="html=1;whiteSpace=wrap;align=left;fontSize=12;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="3860" y="340" width="270" height="20" as="geometry" />
+        <mxCell id="DDZ6LUG9_i15dwgVKkXx-27" value="2. 通知 Observer：将要处理 Timer &lt;font color=&quot;#ff3333&quot;&gt;(BeforeTimers)&lt;/font&gt;" style="html=1;whiteSpace=wrap;align=left;fontSize=12;fontFamily=Times New Roman;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3980" y="60" width="270" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="DDZ6LUG9_i15dwgVKkXx-30" value="5. 如果有 Source1，跳到 9" style="html=1;whiteSpace=wrap;align=left;fontSize=12;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="3860" y="370" width="270" height="20" as="geometry" />
+        <mxCell id="DDZ6LUG9_i15dwgVKkXx-28" value="3. 通知 Observer：将要处理 Source0 (BeforeSources)" style="html=1;whiteSpace=wrap;align=left;fontSize=12;fontFamily=Times New Roman;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3980" y="90" width="270" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="DDZ6LUG9_i15dwgVKkXx-31" value="6. 通知 Observer：线程即将休眠 (BeforeWaiting)" style="html=1;whiteSpace=wrap;align=left;fontSize=12;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="3860" y="400" width="270" height="20" as="geometry" />
+        <mxCell id="DDZ6LUG9_i15dwgVKkXx-29" value="4. 处理 Source0" style="html=1;whiteSpace=wrap;align=left;fontSize=12;fontFamily=Times New Roman;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3980" y="120" width="270" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="DDZ6LUG9_i15dwgVKkXx-32" value="7. 休眠等待唤醒" style="html=1;whiteSpace=wrap;align=left;fontSize=12;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="3860" y="430" width="270" height="20" as="geometry" />
+        <mxCell id="DDZ6LUG9_i15dwgVKkXx-30" value="5. 如果有 Source1，跳到 9" style="html=1;whiteSpace=wrap;align=left;fontSize=12;fontFamily=Times New Roman;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3980" y="150" width="270" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="DDZ6LUG9_i15dwgVKkXx-33" value="8. 通知 Observer：线程刚被唤醒 (AfterWaiting)" style="html=1;whiteSpace=wrap;align=left;fontSize=12;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="3860" y="460" width="270" height="20" as="geometry" />
+        <mxCell id="DDZ6LUG9_i15dwgVKkXx-31" value="6. 通知 Observer：线程即将休眠 &lt;font color=&quot;#ff3333&quot;&gt;(BeforeWaiting)&lt;/font&gt;" style="html=1;whiteSpace=wrap;align=left;fontSize=12;fontFamily=Times New Roman;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3980" y="180" width="270" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="DDZ6LUG9_i15dwgVKkXx-34" value="9. 处理唤醒时收到的消息，之后跳回 2" style="html=1;whiteSpace=wrap;align=left;fontSize=12;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="3860" y="490" width="270" height="20" as="geometry" />
+        <mxCell id="DDZ6LUG9_i15dwgVKkXx-32" value="7. 休眠等待唤醒" style="html=1;whiteSpace=wrap;align=left;fontSize=12;fontFamily=Times New Roman;fillColor=#f8cecc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3980" y="210" width="270" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="DDZ6LUG9_i15dwgVKkXx-35" value="10. 通知 Observer：即将退出 Loop (Exit)" style="html=1;whiteSpace=wrap;align=left;fontSize=14;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="3860" y="610" width="330" height="20" as="geometry" />
+        <mxCell id="DDZ6LUG9_i15dwgVKkXx-33" value="8. 通知 Observer：线程刚被唤醒 &lt;font color=&quot;#ff3333&quot;&gt;(AfterWaiting)&lt;/font&gt;" style="html=1;whiteSpace=wrap;align=left;fontSize=12;fontFamily=Times New Roman;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3980" y="240" width="270" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DDZ6LUG9_i15dwgVKkXx-34" value="9. 处理唤醒时收到的消息，之后跳回 2" style="html=1;whiteSpace=wrap;align=left;fontSize=12;fontFamily=Times New Roman;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3980" y="270" width="270" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DDZ6LUG9_i15dwgVKkXx-40" value="RunLoop" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=1;fontFamily=Times New Roman;fontSize=20;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="4290" y="1550" width="350" height="206" as="geometry" />
+        </mxCell>
+        <mxCell id="DDZ6LUG9_i15dwgVKkXx-41" value="pthread: pthread_t" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=20;" vertex="1" parent="DDZ6LUG9_i15dwgVKkXx-40">
+          <mxGeometry y="26" width="350" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="DDZ6LUG9_i15dwgVKkXx-42" value="_commonModes: CFMutableSetRef" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=20;" vertex="1" parent="DDZ6LUG9_i15dwgVKkXx-40">
+          <mxGeometry y="62" width="350" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="DDZ6LUG9_i15dwgVKkXx-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="DDZ6LUG9_i15dwgVKkXx-40" source="DDZ6LUG9_i15dwgVKkXx-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="116.33333333333348" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DDZ6LUG9_i15dwgVKkXx-43" value="_commonModeItems: CFMutableSetRef" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=20;" vertex="1" parent="DDZ6LUG9_i15dwgVKkXx-40">
+          <mxGeometry y="98" width="350" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="DDZ6LUG9_i15dwgVKkXx-60" value="_currentMode: CFRunLoopModeRef" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=20;" vertex="1" parent="DDZ6LUG9_i15dwgVKkXx-40">
+          <mxGeometry y="134" width="350" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="DDZ6LUG9_i15dwgVKkXx-61" value="_modes: CFMutableSetRef" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=20;" vertex="1" parent="DDZ6LUG9_i15dwgVKkXx-40">
+          <mxGeometry y="170" width="350" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="DDZ6LUG9_i15dwgVKkXx-44" value="RunLoopMode" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=1;fontFamily=Times New Roman;fontSize=20;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="4710" y="1550" width="291" height="206" as="geometry" />
+        </mxCell>
+        <mxCell id="DDZ6LUG9_i15dwgVKkXx-45" value="_name: CFStringRef" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=20;" vertex="1" parent="DDZ6LUG9_i15dwgVKkXx-44">
+          <mxGeometry y="26" width="291" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="DDZ6LUG9_i15dwgVKkXx-46" value="_sources0: CFMutableSetRef" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=20;" vertex="1" parent="DDZ6LUG9_i15dwgVKkXx-44">
+          <mxGeometry y="62" width="291" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="DDZ6LUG9_i15dwgVKkXx-47" value="_sources1: CFMutableSetRef" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=20;" vertex="1" parent="DDZ6LUG9_i15dwgVKkXx-44">
+          <mxGeometry y="98" width="291" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="DDZ6LUG9_i15dwgVKkXx-62" value="_observers: CFMutableArrayRef" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=20;" vertex="1" parent="DDZ6LUG9_i15dwgVKkXx-44">
+          <mxGeometry y="134" width="291" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="DDZ6LUG9_i15dwgVKkXx-63" value="_timers: CFMutableArrayRef" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=20;" vertex="1" parent="DDZ6LUG9_i15dwgVKkXx-44">
+          <mxGeometry y="170" width="291" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="DDZ6LUG9_i15dwgVKkXx-52" value="RunLoopTimer" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=1;fontFamily=Times New Roman;fontSize=20;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="5050" y="1800" width="280" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="DDZ6LUG9_i15dwgVKkXx-53" value="namePath: [NSString]" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=20;" vertex="1" parent="DDZ6LUG9_i15dwgVKkXx-52">
+          <mxGeometry y="26" width="280" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="DDZ6LUG9_i15dwgVKkXx-54" value="object: weak id" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=20;" vertex="1" parent="DDZ6LUG9_i15dwgVKkXx-52">
+          <mxGeometry y="62" width="280" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="DDZ6LUG9_i15dwgVKkXx-55" value="configuration: FBObjectGraphConfiguration" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=20;" vertex="1" parent="DDZ6LUG9_i15dwgVKkXx-52">
+          <mxGeometry y="98" width="280" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="DDZ6LUG9_i15dwgVKkXx-56" value="RunLoopObserver" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=1;fontFamily=Times New Roman;fontSize=20;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="4710" y="1800" width="280" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="DDZ6LUG9_i15dwgVKkXx-57" value="namePath: [NSString]" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=20;" vertex="1" parent="DDZ6LUG9_i15dwgVKkXx-56">
+          <mxGeometry y="26" width="280" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="DDZ6LUG9_i15dwgVKkXx-58" value="object: weak id" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=20;" vertex="1" parent="DDZ6LUG9_i15dwgVKkXx-56">
+          <mxGeometry y="62" width="280" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="DDZ6LUG9_i15dwgVKkXx-59" value="configuration: FBObjectGraphConfiguration" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=20;" vertex="1" parent="DDZ6LUG9_i15dwgVKkXx-56">
+          <mxGeometry y="98" width="280" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="DDZ6LUG9_i15dwgVKkXx-48" value="RunLoopSource" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=1;fontFamily=Times New Roman;fontSize=20;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="4370" y="1800" width="280" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="DDZ6LUG9_i15dwgVKkXx-49" value="namePath: [NSString]" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=20;" vertex="1" parent="DDZ6LUG9_i15dwgVKkXx-48">
+          <mxGeometry y="26" width="280" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="DDZ6LUG9_i15dwgVKkXx-50" value="object: weak id" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=20;" vertex="1" parent="DDZ6LUG9_i15dwgVKkXx-48">
+          <mxGeometry y="62" width="280" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="DDZ6LUG9_i15dwgVKkXx-51" value="configuration: FBObjectGraphConfiguration" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=20;" vertex="1" parent="DDZ6LUG9_i15dwgVKkXx-48">
+          <mxGeometry y="98" width="280" height="36" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
