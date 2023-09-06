@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-06T02:17:26.444Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="0pQp0-5RAyp1nK9T57IF" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-06T12:29:50.508Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="vOZ9-amr365MjBJHVEjL" version="21.6.8" type="github">
   <diagram id="u0rdx8rHvjp24UAevguv" name="第 1 页">
-    <mxGraphModel dx="1230" dy="447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1036" dy="343" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1060,6 +1060,9 @@
         </mxCell>
         <mxCell id="DDZ6LUG9_i15dwgVKkXx-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="DDZ6LUG9_i15dwgVKkXx-10" target="DDZ6LUG9_i15dwgVKkXx-12">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DDZ6LUG9_i15dwgVKkXx-26" value="1. 通知 Observer：即将进入 Loop" style="html=1;whiteSpace=wrap;align=left;fontSize=14;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="3860" y="240" width="220" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
